@@ -6,7 +6,7 @@ rekognition = boto3.client('rekognition')
 
 def lambda_handler(event, context):
     # Retrieve the bucket and key from the event
-    bucket = "skill10awsrekog"
+    bucket = "you_bucket_name"
     key = event['key']
     
      # Check if the object exists in the bucket
